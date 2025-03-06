@@ -1,65 +1,30 @@
-# Welcome to your Lovable project
+Here's a concise and formal README for your **TaskN Optimizer** project:  
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/6e310761-295e-43ab-98c6-61a2d1c160b0
+# TaskN Optimizer  
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+**TaskN Optimizer** is an intelligent task scheduling application that prioritizes tasks based on dependencies, deadlines, and priorities.  
 
-**Use Lovable**
+## Features  
+- **Dependency Management:** Uses **DAG** to handle task dependencies.  
+- **Deadline Optimization:** Allocates time efficiently for optimal scheduling.  
+- **Dynamic Adjustments:** Adapts schedules based on real-time changes.  
+- **Task Visualization:** Provides an interactive task overview.  
+- **Smart Recommendations:** Suggests the next best task.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6e310761-295e-43ab-98c6-61a2d1c160b0) and start prompting.
+## Tech Stack  
+- **Backend:** DAG for task optimization  
+- **Frontend:** React, TypeScript, Tailwind CSS  
+- **Storage:** LocalStorage  
 
-Changes made via Lovable will be committed automatically to this repo.
+## Usage  
+1. Add tasks with dependencies and deadlines.  
+2. The system automatically schedules and prioritizes tasks.  
+3. Adjustments update dynamically based on changes.  
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-git clone <YOUR_GIT_URL>
-
-cd <YOUR_PROJECT_NAME>
-
-npm i
-
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6e310761-295e-43ab-98c6-61a2d1c160b0) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+---  
+Let me know if you need any refinements! 🚀
